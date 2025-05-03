@@ -85,3 +85,41 @@ An intelligent and efficient AI-powered code review tool that analyzes source co
 2. The code is sent to the backend server.
 3. Gemini API analyzes the code based on the system prompt (Senior Code Reviewer logic).
 4. Review with issues, suggestions, improved version, and tips is returned
+
+
+---
+
+## 📸 Screenshots
+
+![AI Code Reviewer Screenshot](./assets/codeReviewer.png)
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+## 🙏 Acknowledgements
+
+- Google GenAI SDK
+- Gemini LLM by Google
+- Inspiration from AI Copilots
+
+---
+
+## 💬 Feedback
+
+If you have feedback or suggestions, feel free to open an issue or reach out.
+
+---
+
+Made with ❤️ by Smit
+
