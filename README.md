@@ -17,9 +17,6 @@ An intelligent and efficient AI-powered code review tool that analyzes source co
 - ![React.js](https://img.icons8.com/color/48/000000/react-native.png) **React.js**
 - ![CSS](https://img.icons8.com/color/48/000000/css3.png) **CSS**
 
-### AI Model:
-- Gemini 2.0 Flash by Google
-
 ---
 
 ## 🚀 Features
@@ -86,7 +83,36 @@ An intelligent and efficient AI-powered code review tool that analyzes source co
 1. User pastes code in the frontend UI.
 2. The code is sent to the backend server.
 3. Gemini API analyzes the code based on the system prompt (Senior Code Reviewer logic).
-4. Review with issues, suggestions, improved version, and tips is returned
+4. Review with issues, suggestions, improved version, and tips is returned.
+5. The frontend displays the review in a formatted and styled UI.
+
+---
+
+## 🔐 Environment Variables
+
+| Variable            | Description                                  |
+|---------------------|----------------------------------------------|
+| `GOOGLE_GEMINI_KEY` | Your API key for Google Gemini GenAI         |
+
+---
+
+## 📁 Project Structure
+
+### Backend
+Backend
+│ ├── controllers
+│ ├── services
+│ ├── routes
+│ ├── utils
+│ └── index.js
+
+### Frontend
+Frontend
+│ ├── components
+│ ├── pages
+│ ├── App.jsx
+│ └── main.jsx
+
 
 
 ---
