@@ -100,14 +100,16 @@ An intelligent and efficient AI-powered code review tool that analyzes source co
 
 ### Backend
 Backend
-##│ ├── controllers
-##│ ├── services
-##│ ├── routes
-##│ ├── utils
-##│ └── index.js
+
+│ ├── controllers
+│ ├── services
+│ ├── routes
+│ ├── utils
+│ └── index.js
 
 ### Frontend
 Frontend
+
 │ ├── components
 │ ├── pages
 │ ├── App.jsx
