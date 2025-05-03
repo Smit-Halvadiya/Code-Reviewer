@@ -40,15 +40,15 @@ Gemini 2.0 Flash by Google
    
    git clone https://github.com/Smit-Halvadiya/ai-code-reviewer.git
 
-2.cd ai-code-reviewer
+   2.cd ai-code-reviewer
 
-3. Setup Environment
+   3. Setup Environment
 
    Create a .env file in the Backend/ directory:
 
    GOOGLE_GEMINI_KEY=your_google_api_key
 
-4. Install dependencies
+   4. Install dependencies
 
 cd Backend
 npm install
