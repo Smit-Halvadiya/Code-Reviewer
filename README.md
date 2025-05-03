@@ -7,13 +7,15 @@ An intelligent and efficient AI-powered code review tool that analyzes source co
 ## 📦 Tech Stack
 
 ### Backend:
-- Node.js
-- Express.js
-- Google GenAI SDK (Gemini)
+
+- ![Node.js](https://img.icons8.com/color/48/000000/nodejs.png) **Node.js**
+- ![Express.js](https://img.icons8.com/color/48/000000/express.png) **Express.js**
+- ![Google GenAI SDK](https://img.icons8.com/color/48/000000/google-logo.png) **Google GenAI SDK (Gemini)**
 
 ### Frontend:
-- React.js
-- CSS
+
+- ![React.js](https://img.icons8.com/color/48/000000/react-native.png) **React.js**
+- ![CSS](https://img.icons8.com/color/48/000000/css3.png) **CSS**
 
 ### AI Model:
 - Gemini 2.0 Flash by Google
