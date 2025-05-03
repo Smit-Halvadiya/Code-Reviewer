@@ -1,132 +1,87 @@
-🧠 AI-Powered Code Reviewer
+# 🧠 AI-Powered Code Reviewer
 
 An intelligent and efficient AI-powered code review tool that analyzes source code and provides smart suggestions to improve code quality, performance, readability, and adherence to best practices. Powered by Google Gemini API.
 
-📦 Tech Stack
+---
 
-Backend:
+## 📦 Tech Stack
 
-Node.js
+### Backend:
+- Node.js
+- Express.js
+- Google GenAI SDK (Gemini)
 
-Express.js
+### Frontend:
+- React.js
+- CSS
 
-Google GenAI SDK (Gemini)
+### AI Model:
+- Gemini 2.0 Flash by Google
 
-Frontend:
+---
 
-React.js
+## 🚀 Features
 
-CSS
+- ✅ Accepts code input and reviews it using Gemini AI
+- 🔍 Highlights issues and bad practices
+- 💡 Provides better alternatives with explanations
+- 📝 Suggests improved code and documents it
+- ⚡ Lightweight and fast integration
 
-AI Model:
+---
 
-Gemini 2.0 Flash by Google
+## 🛠️ Setup Instructions
 
-🚀 Features
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Smit-Halvadiya/ai-code-reviewer.git
+    ```
 
-✅ Accepts code input and reviews it using Gemini AI
+2. **Navigate to the project directory:**
+    ```bash
+    cd ai-code-reviewer
+    ```
 
-🔍 Highlights issues and bad practices
+3. **Setup Environment:**
 
-💡 Provides better alternatives with explanation
+   Create a `.env` file in the `Backend/` directory:
+    ```env
+    GOOGLE_GEMINI_KEY=your_google_api_key
+    ```
 
-📝 Suggests improved code and documents it
+4. **Install dependencies:**
 
-⚡ Lightweight and fast integration
+   - For Backend:
+     ```bash
+     cd Backend
+     npm install
+     ```
 
-🛠️ Setup Instructions
+   - For Frontend:
+     ```bash
+     cd ../Frontend
+     npm install
+     ```
 
-1. Clone the repository
-   
-   git clone https://github.com/Smit-Halvadiya/ai-code-reviewer.git
+5. **Run the application:**
 
-   2.cd ai-code-reviewer
+   - Start Backend:
+     ```bash
+     cd Backend
+     npm run dev
+     ```
 
-   3. Setup Environment
+   - Start Frontend (in a separate terminal):
+     ```bash
+     cd Frontend
+     npm run dev
+     ```
 
-   Create a .env file in the Backend/ directory:
+---
 
-   GOOGLE_GEMINI_KEY=your_google_api_key
+## 🧠 How it Works
 
-   4. Install dependencies
-
-cd Backend
-npm install
-
-cd ../Frontend
-npm install
-
-5. Run the application
-
-# Start Backend
-cd Backend
-npm run dev
-
-# Start Frontend (in separate terminal)
-cd Frontend
-npm run dev
-
-🧠 How it Works
-
-User pastes code in the frontend UI.
-
-The code is sent to the backend server.
-
-Gemini API analyzes the code based on system prompt (Senior Code Reviewer logic).
-
-Review with issues, suggestions, improved version, and tips is returned.
-
-The frontend displays the review in a formatted and styled UI.
-
-🔐 Environment Variables
-
-Variable
-
-Description
-
-GOOGLE_GEMINI_KEY
-
-Your API key for Google Gemini GenAI
-
-📁 Project Structure
-Backend
-├── Backend
-│   ├── controllers
-│   ├── services
-│   ├── routes
-│   ├── utils
-│   └── index.js
-
-Frontend
-├── Frontend
-│   ├── components
-│   ├── pages
-│   ├── App.jsx
-│   └── main.jsx
-
-📸 Screenshots
-
-![Alt text](./assets/codeReviewer.png)
-
-🤝 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-📄 License
-
-This project is open source and available under the MIT License.
-
-🙏 Acknowledgements
-
-Google GenAI SDK
-
-Gemini LLM by Google
-
-Inspiration from AI Copilots
-
-💬 Feedback
-
-If you have feedback or suggestions, feel free to open an issue or reach out.
-
-Made with ❤️ by Smit
-
+1. User pastes code in the frontend UI.
+2. The code is sent to the backend server.
+3. Gemini API analyzes the code based on the system prompt (Senior Code Reviewer logic).
+4. Review with issues, suggestions, improved version, and tips is returned
