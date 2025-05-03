@@ -37,8 +37,7 @@ Gemini 2.0 Flash by Google
 🛠️ Setup Instructions
 
 1. Clone the repository
-
-git clone https://github.com/your-username/ai-code-reviewer.git
+git clone https://github.com/Smit-Halvadiya/ai-code-reviewer.git
 cd ai-code-reviewer
 
 2. Setup Environment
@@ -95,7 +94,8 @@ Your API key for Google Gemini GenAI
 │   ├── routes
 │   ├── utils
 │   └── index.js
-│
+
+
 ├── Frontend
 │   ├── components
 │   ├── pages
