@@ -38,7 +38,7 @@ An intelligent and efficient AI-powered code review tool that analyzes source co
 
 2. **Navigate to the project directory:**
     ```bash
-    cd ai-code-reviewer
+    cd Code-Reviewer
     ```
 
 3. **Setup Environment:**
