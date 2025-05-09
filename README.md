@@ -33,7 +33,7 @@ An intelligent and efficient AI-powered code review tool that analyzes source co
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Smit-Halvadiya/ai-code-reviewer.git
+    git clone https://github.com/Smit-Halvadiya/Code-Reviewer.git
     ```
 
 2. **Navigate to the project directory:**
